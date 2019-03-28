@@ -4155,8 +4155,6 @@ body.has-backdrop .backdrop {
     .to-top:hover i {
       display: block;
       color: #fff; }
-
-@charset "UTF-8";
 .alertify {
   z-index: 1004; }
 
