@@ -24,6 +24,9 @@ import { Error4042Component } from './pages/error-404-2/error-404-2.component';
 import { Error403Component } from './pages/error-403/error-403.component';
 import { Error500Component } from './pages/error-500/error-500.component';
 import { MaintenanceComponent } from './pages/maintenance/maintenance.component';
+import { CustomerComponent } from './cypad/customer/customer.component';
+import { ProductsComponent } from './cypad/products/products.component';
+import { OrdersComponent } from './cypad/orders/orders.component';
 
 
 const routes: Routes = [
@@ -75,6 +78,18 @@ const routes: Routes = [
             {
                 path: "profile",
                 component: ProfileComponent
+            },
+            {
+                path: "customer",
+                component: CustomerComponent
+            },
+            {
+                path: "products",
+                component: ProductsComponent
+            },
+            {
+                path: "orders",
+                component: OrdersComponent
             },
         ]
     },
